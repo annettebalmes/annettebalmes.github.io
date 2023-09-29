@@ -1,4 +1,3 @@
-# Annette Balmes
 
 ### Public Contact Information
 * Email: annette.balmes@colorado.edu
