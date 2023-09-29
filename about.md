@@ -1,12 +1,10 @@
 ---
-title: More About Me
+title: More About Me:
+feature_image: "Annette_Balmes_PC009.jpg"
+feature_text: |
+  ## Online Portfolio for Annette Balmes
 ---
 
-# Annette Balmes
-
-<p align="center">
-  <img src='Annette_Balmes_PC009.jpg' width='250'>
-</p>
 
 ### Public Contact Information
 * Email: annette.balmes@colorado.edu
