@@ -39,8 +39,8 @@ navigation_header:
   url: /
 - title: About
   url: /about/
-- title: Blog
-  url: /blog/
+- title: Projects
+  url: /projects/
 
 # Footer nav
 navigation_footer:
