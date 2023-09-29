@@ -1,8 +1,6 @@
 ---
 title: More About Me:
-feature_image: "Annette_Balmes_PC009.jpg"
-feature_text: |
-  ## Online Portfolio for Annette Balmes
+
 ---
 
 
