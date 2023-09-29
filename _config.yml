@@ -50,7 +50,7 @@ navigation_footer:
 # Collections
 collections:
   posts:
-    title: Posts
+    title: Projects
     output: true
     description: "Various Project Examples"
     feature_text: |
