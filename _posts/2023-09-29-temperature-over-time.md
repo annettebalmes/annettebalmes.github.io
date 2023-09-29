@@ -4,7 +4,7 @@ categories:
 - General
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
-testupdate2
+
 Weld County, CO monthly max and average temperatures from 2000 - 2007.
 
 ## Data Choice
@@ -17,8 +17,11 @@ I lived in Greeley, CO which is in Weld County and I was able to pull data from 
 <iframe src="/assets/temperature-over-time-output.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
-    height="600"
+    height="400"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
 </iframe>
+
+# Results
+As we are only getting a monthly view with this dataset, we see that for most summer months, there was at least one day over 85 degrees. We also see that the average temperature for each month tells a different story. We now know that on average for each month, it was never even over 80 degrees. I believe my hypothesis to be correct, that my mother chose a temperature that it would hit every so often, but also would not happen as frequently.
