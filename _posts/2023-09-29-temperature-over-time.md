@@ -4,7 +4,7 @@ categories:
 - General
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
-testupdate1
+testupdate2
 Weld County, CO monthly max and average temperatures from 2000 - 2007.
 
 ## Data Choice
@@ -16,8 +16,8 @@ I lived in Greeley, CO which is in Weld County and I was able to pull data from 
 
 <iframe src="/assets/temperature-over-time-output.html"
     sandbox="allow-same-origin allow-scripts"
-    width="100%"
-    height="100%"
+    width="800"
+    height="700"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
