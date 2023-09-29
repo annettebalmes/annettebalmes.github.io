@@ -14,7 +14,7 @@ I grew up in Weld County, Colorado and I have a memory of my mother never lettin
 ## Data at a Glance
 I lived in Greeley, CO which is in Weld County and I was able to pull data from the ncei website to get monthly values for the the monthly max temperature and avg temperatures from 2000 - 2007.
 
-<iframe src="/assets/temperature-over-time-output.html"
+<iframe src="/assets/temperature-over-time/temperature-over-time-output.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="600"
