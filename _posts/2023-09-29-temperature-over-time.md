@@ -17,7 +17,7 @@ I lived in Greeley, CO which is in Weld County and I was able to pull data from 
 <iframe src="/assets/temperature-over-time-output.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
-    height="500"
+    height="100%"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
