@@ -42,7 +42,7 @@ The National Weather Service ranked the 2013 flood its top weather story of the 
 
 ## Data Analysis
 
-To begin, I aquired data from USGS for my chosen gauge location and looked at daily stream discharge for the entire period there was data available, from 1979 to 2023.
+To begin, I aquired data from [USGS]([https://waterdata.usgs.gov/nwis/dv?cb_00060=on&format=rdb&site_no=06741510&legacy=&referred_module=sw&period=&begin_date=1979-01-01&end_date=2023-10-02]) for my chosen gauge location and looked at daily stream discharge for the entire period there was data available, from 1979 to 2023.
 
 <iframe src="/assets/flood-analysis/flood-output-allmeandata.html"
     sandbox="allow-same-origin allow-scripts"
@@ -52,6 +52,7 @@ To begin, I aquired data from USGS for my chosen gauge location and looked at da
     seamless="seamless"
     frameborder="0">
 </iframe>
+
 
 <iframe src="/assets/flood-analysis/flood-output-floodonly.html"
     sandbox="allow-same-origin allow-scripts"
