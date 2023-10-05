@@ -44,7 +44,7 @@ The National Weather Service ranked the 2013 flood its top weather story of the 
 
 To begin, I aquired data from USGS for my chosen gauge location and looked at daily stream discharge for the entire period there was data available, from 1979 to 2023.
 
-<iframe src="/assets/temperature-over-time/flood-output-allmeandata.html"
+<iframe src="/assets/flood-analysis/flood-output-allmeandata.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="600"
@@ -53,7 +53,7 @@ To begin, I aquired data from USGS for my chosen gauge location and looked at da
     frameborder="0">
 </iframe>
 
-<iframe src="/assets/temperature-over-time/flood-output-floodonly.html"
+<iframe src="/assets/flood-analysis/flood-output-floodonly.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="600"
@@ -62,7 +62,7 @@ To begin, I aquired data from USGS for my chosen gauge location and looked at da
     frameborder="0">
 </iframe>
 
-<iframe src="/assets/temperature-over-time/flood-output-allpeakdata.html"
+<iframe src="/assets/flood-analysis/flood-output-allpeakdata.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="600"
@@ -71,7 +71,7 @@ To begin, I aquired data from USGS for my chosen gauge location and looked at da
     frameborder="0">
 </iframe>
 
-<iframe src="/assets/temperature-over-time/flood-output-annual_maxima.html"
+<iframe src="/assets/flood-analysis/flood-output-annual_maxima.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="600"
@@ -80,7 +80,7 @@ To begin, I aquired data from USGS for my chosen gauge location and looked at da
     frameborder="0">
 </iframe>
 
-<iframe src="/assets/temperature-over-time/flood-output-probability.html"
+<iframe src="/assets/flood-analysis/flood-output-probability.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="600"
@@ -89,7 +89,7 @@ To begin, I aquired data from USGS for my chosen gauge location and looked at da
     frameborder="0">
 </iframe>
 
-<iframe src="/assets/temperature-over-time/flood-output-return-years.html"
+<iframe src="/assets/flood-analysis/flood-output-return-years.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="600"
