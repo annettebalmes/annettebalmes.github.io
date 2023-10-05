@@ -31,8 +31,7 @@ Flood damage encompassed nearly 2,000 square miles of the Colorado Front Range i
     height="600"
     scrolling="no"
     seamless="seamless"
-    frameborder="0"
-    title="Damage that occured on Highway 34, the highway that connects loveland and the front range to the mountains.>
+    frameborder="0">
 </iframe>
 
 Not only was the devastation staggering, but it marked only the second time in Colorado weather history that such a flood happened in September.
