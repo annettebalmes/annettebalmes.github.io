@@ -42,7 +42,7 @@ The National Weather Service ranked the 2013 flood its top weather story of the 
 
 ## Data Analysis
 
-To begin, I aquired data from [USGS]([https://waterdata.usgs.gov/nwis/dv?cb_00060=on&format=rdb&site_no=06741510&legacy=&referred_module=sw&period=&begin_date=1979-01-01&end_date=2023-10-02]) for my chosen gauge location and looked at daily stream discharge for the entire period there was data available, from 1979 to 2023.
+To begin, I aquired data from [USGS]([https://waterdata.usgs.gov/nwis/dv?cb_00060=on&format=rdb&site_no=06741510&legacy=&referred_module=sw&period=&begin_date=1979-01-01&end_date=2023-10-02]) for my chosen gauge location and looked at mean daily stream discharge for the entire period there was data available, from 1979 to 2023.
 
 <iframe src="/assets/flood-analysis/flood-output-allmeandata.html"
     sandbox="allow-same-origin allow-scripts"
@@ -53,6 +53,7 @@ To begin, I aquired data from [USGS]([https://waterdata.usgs.gov/nwis/dv?cb_0006
     frameborder="0">
 </iframe>
 
+Here is a closer look at the exact time range of the flood that occured in September, 2013 at the same gauge location. Note how many days it took for the stream to recover as well.
 
 <iframe src="/assets/flood-analysis/flood-output-floodonly.html"
     sandbox="allow-same-origin allow-scripts"
@@ -63,6 +64,7 @@ To begin, I aquired data from [USGS]([https://waterdata.usgs.gov/nwis/dv?cb_0006
     frameborder="0">
 </iframe>
 
+As the stream discharge values above are a mean, I also downloaded the annual instantaneous peak discharge values from [USGS](https://waterdata.usgs.gov/nwis/dv?cb_00060=on&format=rdb&site_no=06741510&legacy=&referred_module=sw&period=&begin_date=1979-01-01&end_date=2023-10-02). Here is a look for the same time range using the instantaneous values.
 <iframe src="/assets/flood-analysis/flood-output-allpeakdata.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
@@ -71,6 +73,8 @@ To begin, I aquired data from [USGS]([https://waterdata.usgs.gov/nwis/dv?cb_0006
     seamless="seamless"
     frameborder="0">
 </iframe>
+
+In order to compare the difference between the mean daily and the annual peak instantaneous values, I annualized the daily data, and you can compare the difference below. Note how much smaller the values are from the mean vs. the peak.
 
 <iframe src="/assets/flood-analysis/flood-output-annual_maxima.html"
     sandbox="allow-same-origin allow-scripts"
@@ -81,6 +85,10 @@ To begin, I aquired data from [USGS]([https://waterdata.usgs.gov/nwis/dv?cb_0006
     frameborder="0">
 </iframe>
 
+As we analysis the likelihood of this flood happening again, clearly using the mean and instantaneous values will make a large difference. Going forward I will do calculations using both values to compare.
+
+Instantaneous events are in purple, with the annually sampled mean in black, with a log scale along the y-axis for probability. We can see that the probability for the 2013 events are in star markers, and you can hover over them to see their exact values. Because of the mean usage, some years overall are much less likely to occur than the 2013 event as a hwole. So we see that the instantaneous values, show that the 2013 event was the least probable for all years in this location since 1979.
+
 <iframe src="/assets/flood-analysis/flood-output-probability.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
@@ -90,6 +98,7 @@ To begin, I aquired data from [USGS]([https://waterdata.usgs.gov/nwis/dv?cb_0006
     frameborder="0">
 </iframe>
 
+Finally, I also calculated the return period for the 2013 flood. We see a similar trend where the 2013 flood event itself has the highest return period. But 2013 as a whole was lower than other years when summed annually.
 <iframe src="/assets/flood-analysis/flood-output-return-years.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
@@ -99,10 +108,7 @@ To begin, I aquired data from [USGS]([https://waterdata.usgs.gov/nwis/dv?cb_0006
     frameborder="0">
 </iframe>
 
-
-
-
-
-
 # Results
-As we are only getting a monthly view with this dataset, we see that for most summer months, there was at least one day over 85 degrees. We also see that the average temperature for each month tells a different story. We now know that on average for each month, it was never even over 80 degrees. I believe my hypothesis to be correct, that my mother chose a temperature that it would hit every so often, but also would not happen as frequently.
+When studying exact short-time frame events, using the instantaneous values gives us clues for that event. But if we want to evaluate the trend for the full water year, using the mean values gives us that information.
+
+Overall, we learned that the 2013 water year was not the overall highest year, but the event itself was the rarest event seen in this area since 1979.
