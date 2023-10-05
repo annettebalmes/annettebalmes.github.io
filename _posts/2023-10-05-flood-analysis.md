@@ -42,7 +42,7 @@ The National Weather Service ranked the 2013 flood its top weather story of the 
 
 ## Data Analysis
 
-
+To begin, I aquired data from USGS for my chosen gauge location and looked at daily stream discharge for the entire period there was data available, from 1979 to 2023.
 
 <iframe src="/assets/temperature-over-time/flood-output-allmeandata.html"
     sandbox="allow-same-origin allow-scripts"
