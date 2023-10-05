@@ -1,5 +1,5 @@
 ---
-title: Flood Event Analysis
+title: Flood Event and Water Year Analysis
 categories:
 - General
 feature_image: "https://picsum.photos/2560/600?image=872"
@@ -8,7 +8,7 @@ feature_image: "https://picsum.photos/2560/600?image=872"
 The Front Range Flood Event was a significant flood in Northern Colorado that occured in September, 2013.
 
 ## Data Choice
-My first experience fully understanding the effects of floods, was when this event occured. We took a field trip to Loveland, CO to look at the damage. A park I used to go to when I was young was under 10 feet of debris. I wanted to analyze this flood, and see how likely it is to happen again. I found a gage location near that park to analyze the stream discharge data in order to understand the return year and probability.
+My first experience fully understanding the effects of floods, was when this event occured. We took a field trip to Loveland, CO to look at the damage. A park I used to go to when I was young was under 10 feet of debris. I wanted to analyze this flood, and see how likely it is to happen again, and if the water year had low probability to occur again. I found a gage location near that park to analyze the stream discharge data in order to understand the return year and probability.
 
 <iframe src="/assets/flood-analysis/gauge-location.html"
     sandbox="allow-same-origin allow-scripts"
@@ -109,6 +109,6 @@ Finally, I also calculated the return period for the 2013 flood. We see a simila
 </iframe>
 
 # Results
-When studying exact short-time frame events, using the instantaneous values gives us clues for that event. But if we want to evaluate the trend for the full water year, using the mean values gives us that information.
+When studying exact short-time frame events, using the instantaneous values gives us clues for that event. But in order to evaluate the trend for the full water year, using the mean values gives us that information.
 
-Overall, we learned that the 2013 water year was not the overall highest year, but the event itself was the rarest event seen in this area since 1979.
+Overall, I learned that the 2013 water year was not the overall worst year, but the event itself was the rarest event seen in this area since at least 1979.
