@@ -79,7 +79,7 @@ To get a better understanding of the values we are seeing, I also then created a
     frameborder="0">
 </iframe>
 
-Finally, to see how the area has fared over the last decade, I plotted values from before and after the fire, while taking a more in depth look at if the fire dropped more inside the boundary than outside. This plot shows the values as well for 2010-2023, and shows a vertical line where the fire occured. 
+Finally, to see how the area has fared over the last decade, I plotted values from before and after the fire, while taking a more in depth look at if the fire dropped more inside the boundary than outside. This plot shows the values as well for 2010-2023, and shows a vertical line where the fire occured. Despite 25,000 pounds of planting wildflowers and grasses, the area has barely recovered.
 
 <iframe src="/assets/ndvi/ndvi_pre_post_fire_to_present.html"
     sandbox="allow-same-origin allow-scripts"
@@ -90,8 +90,14 @@ Finally, to see how the area has fared over the last decade, I plotted values fr
     frameborder="0">
 </iframe>
 
+
 # Results
-When studying exact short-time frame events, using the instantaneous values gives us clues for that event. But in order to evaluate the trend for the full water year, using the mean values gives us that information.
+It will take decades for the trees and vegetation to ever recover following the royal gorge fire. A research team from Australian National University found that forests’ ability to recover from a fire can stretching to more than 80 years. This means that we may continue to see devastated landscapes post-fire for many years to come, impacting the ability for wildlife to reemerge and humans to recreate in these areas. 
 
-Overall, I learned that the 2013 water year was not the overall worst year, but the event itself was the rarest event seen in this area since at least 1979.
+A University of Colorado Boulder study noted that in the Southern Rocky Mountains the post-fire landscape is becoming unsuitable for future growth of ponderosa pine and Douglas fir. This finding from their research reveals that if fires continue to drastically harm the soil quality and ecosystem health, it may be hard for local trees to regrow in those areas.
 
+Someday I hope to revisit the area, and hopefully in my lifetime it will look just like it did when I was a kid.
+
+# Data Citations
+
+Didan, K. (2021). MODIS/Aqua Vegetation Indices 16-Day L3 Global 250m SIN Grid V061. NASA EOSDIS Land Processes Distributed Active Archive Center. Accessed 2023-10-06 from https://doi.org/10.5067/MODIS/MYD13Q1.061. Accessed October 6, 2023. 
