@@ -44,10 +44,11 @@ This is why our eyes see vegetation as the color green. If you could see near-in
 
 ## Data Analysis
 
-To begin, I aquired the raster data from [Wildland Fire Interagency Geospatial Services (WFIGS) Historic Perimeters 2013 API explorer site](https://data-nifc.opendata.arcgis.com/datasets/nifc::historic-perimeters-2018/api) and downloaded it using the [APPEEARS](https://appeears.earthdatacloud.nasa.gov/) API (Application Programming Interface) for the royal gorge location and looked at the NDVI
+To begin, I aquired the raster data from [Wildland Fire Interagency Geospatial Services (WFIGS) Historic Perimeters 2013 API explorer site](https://data-nifc.opendata.arcgis.com/datasets/nifc::historic-perimeters-2018/api) and downloaded it using the [APPEEARS](https://appeears.earthdatacloud.nasa.gov/) API (Application Programming Interface) for the royal gorge location and looked at the NDVI.
 
+First I looked at the NDVI difference for the immediate pre-fire and and post-fire years, 2012 to 2014. 
 
-<iframe src="/assets/flood-analysis/flood-output-allmeandata.html"
+<iframe src="/assets/ndvi/ndvi_pre_post_fire_years.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="600"
@@ -56,9 +57,9 @@ To begin, I aquired the raster data from [Wildland Fire Interagency Geospatial S
     frameborder="0">
 </iframe>
 
-Here is a closer look at the exact time range of the flood that occured in September, 2013 at the same gauge location. Note how many days it took for the stream to recover as well.
+We can see some areas with very clear differences in the NDVI spatially, in order to get a better idea as to where the edges of the fire were, I next plotted the boundary of the fire on top of the NDVI plot.
 
-<iframe src="/assets/flood-analysis/flood-output-floodonly.html"
+<iframe src="/assets/ndvi/ndvi_pre_post_fire_years_boundary.jpg"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="600"
@@ -67,8 +68,9 @@ Here is a closer look at the exact time range of the flood that occured in Septe
     frameborder="0">
 </iframe>
 
-As the stream discharge values above are a mean, I also downloaded the annual instantaneous peak discharge values from [USGS](https://waterdata.usgs.gov/nwis/dv?cb_00060=on&format=rdb&site_no=06741510&legacy=&referred_module=sw&period=&begin_date=1979-01-01&end_date=2023-10-02). Here is a look for the same time range using the instantaneous values.
-<iframe src="/assets/flood-analysis/flood-output-allpeakdata.html"
+To get a better understanding of the values we are seeing, I also then created a histogram to see the spread of values.
+
+<iframe src="/assets/ndvi/ndvi_pre_post_fire_histogram.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="600"
@@ -77,32 +79,9 @@ As the stream discharge values above are a mean, I also downloaded the annual in
     frameborder="0">
 </iframe>
 
-In order to compare the difference between the mean daily and the annual peak instantaneous values, I annualized the daily data, and you can compare the difference below. Note how much smaller the values are from the mean vs. the peak.
+Finally, to see how the area has fared over the last decade, I plotted for from before and after the fire, while taking a more in depth look at if the fire dropped more inside the boundary
 
-<iframe src="/assets/flood-analysis/flood-output-annual_maxima.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="700"
-    height="600"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
-
-As we analysis the likelihood of this flood happening again, clearly using the mean and instantaneous values will make a large difference. Going forward I will do calculations using both values to compare.
-
-Instantaneous events are in purple, with the annually sampled mean in black, with a log scale along the y-axis for probability. We can see that the probability for the 2013 events are in star markers, and you can hover over them to see their exact values. Because of the mean usage, some years overall are much less likely to occur than the 2013 event as a hwole. So we see that the instantaneous values, show that the 2013 event was the least probable for all years in this location since 1979.
-
-<iframe src="/assets/flood-analysis/flood-output-probability.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="700"
-    height="600"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
-
-Finally, I also calculated the return period for the 2013 flood. We see a similar trend where the 2013 flood event itself has the highest return period. But 2013 as a whole was lower than other years when summed annually.
-<iframe src="/assets/flood-analysis/flood-output-return-years.html"
+<iframe src="/assets/ndvi/flood-output-probability.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="600"
