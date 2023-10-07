@@ -56,14 +56,9 @@ First, I looked at the NDVI difference for the immediate pre-fire and and post-f
 
 We can see some areas with very clear differences in the NDVI spatially, in order to get a better idea as to where the edges of the fire were, I next plotted the boundary of the fire on top of the NDVI plot. Then I expanded the data to be from 2010 to 2023, so we can get a better picture of the full effects of the fire.
 
-<iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2010-2023.jpg"
-    sandbox="allow-same-origin allow-scripts"
-    width="700"
-    height="500"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
+<p align="center">
+  <img width="700" height="500" src="/assets/ndvi/ndvi_pre_post_fire_years_2010-2023.jpg">
+</p>
 
 To get a better understanding of the values we are seeing, I also then created a histogram to see the spread of values, for the same parameters as the above plot.
 
