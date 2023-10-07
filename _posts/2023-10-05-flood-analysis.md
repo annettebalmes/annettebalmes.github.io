@@ -112,3 +112,9 @@ Finally, I also calculated the return period for the 2013 flood. We see a simila
 When studying exact short-time frame events, using the instantaneous values gives us clues for that event. But in order to evaluate the trend for the full water year, using the mean values gives us that information.
 
 Overall, I learned that the 2013 water year was not the overall worst year, but the event itself was the rarest event seen in this area since at least 1979.
+
+# Data Citation
+USGS. (n.d.). Stream discharge data for USGS 06741510 BIG THOMPSON RIVER AT LOVELAND, CO gauge location [Dataset]. https://waterdata.usgs.gov/nwis/dv?cb_00060=on&format=rdb&site_no=06741510&legacy=&referred_module=sw&period=&begin_date=1979-01-01&end_date=2023-10-02
+
+USGS. (n.d.-a). Peak instantaneous annual values for USGS 06741510 BIG THOMPSON RIVER AT LOVELAND, CO gauge location. [Dataset]. https://waterdata.usgs.gov/nwis/dv?cb_00060=on&format=rdb&site_no=06741510&legacy=&referred_module=sw&period=&begin_date=1979-01-01&end_date=2023-10-02
+
