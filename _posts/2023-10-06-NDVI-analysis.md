@@ -16,15 +16,15 @@ A popular attraction in the mountains of CO, west of Pueblo, is the Royal Gorge 
 
 Royal Gorge Fire Quick Facts
 
-    * First reported at 1pm June 11th, 2013.
-    * 3,218 acres burned.
-    * 32 out of 1,292 wooden planks burned on the Royal Gorge Bridge.
-    * 48 out of 52 buildings in the Royal Gorge Bridge and Park were lost.
-    * The Royal Gorge Bridge and Park was closed for 9 months. 
-    * The Royal Gorge Fire was fully contained on June 16th, 2013.
-    * No injuries were reported and no residential homes were lost.
-    * Cost to rebuild park: $30 million
-    * About 25,000 pounds of native grass and wildflower seeds were planted.
+ * First reported at 1pm June 11th, 2013.
+ * 3,218 acres burned.
+ * 32 out of 1,292 wooden planks burned on the Royal Gorge Bridge.
+ * 48 out of 52 buildings in the Royal Gorge Bridge and Park were lost.
+ * The Royal Gorge Bridge and Park was closed for 9 months. 
+ * The Royal Gorge Fire was fully contained on June 16th, 2013.
+ * No injuries were reported and no residential homes were lost.
+ * Cost to rebuild park: $30 million
+ * About 25,000 pounds of native grass and wildflower seeds were planted.
 
 The image below that was taken in 2013 and outlines the fire boundary in white dots with a red circle where the suspension bridge occurs from [Wikipedia]([(https://en.wikipedia.org/wiki/File:ISS_image_of_Royal_Gorge,_Canon_City,_Colorado,_USA,_wildfire_burn_scars_with_markings,_rotated_-30_degrees_and_cropped,_2013.jpg)]) 
 
