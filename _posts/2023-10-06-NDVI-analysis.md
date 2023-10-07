@@ -46,7 +46,7 @@ This is why our eyes see vegetation as the color green. If you could see near-in
 
 To begin, I aquired the raster data from [Wildland Fire Interagency Geospatial Services (WFIGS) Historic Perimeters 2013 API explorer site](https://data-nifc.opendata.arcgis.com/datasets/nifc::historic-perimeters-2018/api) and downloaded it using the [APPEEARS](https://appeears.earthdatacloud.nasa.gov/) API (Application Programming Interface) for the royal gorge location and looked at the NDVI.
 
-First I looked at the NDVI difference for the immediate pre-fire and and post-fire years, 2012 to 2014. 
+First, I looked at the NDVI difference for the immediate pre-fire and and post-fire years, 2012 to 2014. 
 
 <iframe src="/assets/ndvi/ndvi_pre_post_fire_years.html"
     sandbox="allow-same-origin allow-scripts"
@@ -57,9 +57,9 @@ First I looked at the NDVI difference for the immediate pre-fire and and post-fi
     frameborder="0">
 </iframe>
 
-We can see some areas with very clear differences in the NDVI spatially, in order to get a better idea as to where the edges of the fire were, I next plotted the boundary of the fire on top of the NDVI plot.
+We can see some areas with very clear differences in the NDVI spatially, in order to get a better idea as to where the edges of the fire were, I next plotted the boundary of the fire on top of the NDVI plot. Then I expanded the data to be from 2010 to 2023, so we can get a better picture of the full effects of the fire.
 
-<iframe src="/assets/ndvi/ndvi_pre_post_fire_years_boundary.jpg"
+<iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2010-2023.png"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="600"
@@ -68,9 +68,9 @@ We can see some areas with very clear differences in the NDVI spatially, in orde
     frameborder="0">
 </iframe>
 
-To get a better understanding of the values we are seeing, I also then created a histogram to see the spread of values.
+To get a better understanding of the values we are seeing, I also then created a histogram to see the spread of values, for the same parameters as the above plot.
 
-<iframe src="/assets/ndvi/ndvi_pre_post_fire_histogram.html"
+<iframe src="/assets/ndvi/ndvi_pre_post_fire_histogram_2010-2023.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="600"
@@ -79,9 +79,9 @@ To get a better understanding of the values we are seeing, I also then created a
     frameborder="0">
 </iframe>
 
-Finally, to see how the area has fared over the last decade, I plotted for from before and after the fire, while taking a more in depth look at if the fire dropped more inside the boundary
+Finally, to see how the area has fared over the last decade, I plotted values from before and after the fire, while taking a more in depth look at if the fire dropped more inside the boundary than outside. This plot shows the values as well for 2010-2023, and shows a vertical line where the fire occured. 
 
-<iframe src="/assets/ndvi/flood-output-probability.html"
+<iframe src="/assets/ndvi/ndvi_pre_post_fire_to_present.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="600"
