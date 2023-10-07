@@ -28,14 +28,11 @@ Royal Gorge Fire Quick Facts
 
 The image below that was taken in 2013 and outlines the fire boundary in white dots with a red circle where the suspension bridge occurs from [Wikipedia]([(https://en.wikipedia.org/wiki/File:ISS_image_of_Royal_Gorge,_Canon_City,_Colorado,_USA,_wildfire_burn_scars_with_markings,_rotated_-30_degrees_and_cropped,_2013.jpg)]) 
 
-<iframe src="/assets/ndvi/royal-gorge-location.jpg"
-    sandbox="allow-same-origin allow-scripts"
-    width="700"
-    height="600"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
+<p align="center">
+  <img width="700" height="600" src="/assets/ndvi/royal-gorge-location.jpg">
+</p>
+
+
 
 ## Why NDVI for Vegetation Analysis
 Normalized Difference Vegetation Index (NDVI) quantifies vegetation by measuring the difference between near-infrared (which vegetation strongly reflects) and red light (which vegetation absorbs). Healthy vegetation (chlorophyll) reflects more near-infrared (NIR) and green light compared to other wavelengths. But it absorbs more red and blue light.
