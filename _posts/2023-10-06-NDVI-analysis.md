@@ -47,7 +47,7 @@ First, I looked at the NDVI difference for the immediate pre-fire and post-fire 
 
 <iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2012_2014.html"
     sandbox="allow-same-origin allow-scripts"
-    width="700"
+    width="710"
     height="500"
     scrolling="no"
     seamless="seamless"
@@ -70,7 +70,7 @@ To get a better understanding of the values we are seeing, I also then created a
 
 <iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2010_2023_histogram.html"
     sandbox="allow-same-origin allow-scripts"
-    width="700"
+    width="710"
     height="500"
     scrolling="no"
     seamless="seamless"
@@ -81,7 +81,7 @@ Finally, to see how the area has fared over the last decade, I plotted values fr
 
 <iframe src="/assets/ndvi/ndvi_line-plot.html"
     sandbox="allow-same-origin allow-scripts"
-    width="700"
+    width="710"
     height="300"
     scrolling="no"
     seamless="seamless"
