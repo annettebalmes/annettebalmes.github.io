@@ -96,7 +96,7 @@ In order to take into account if the fire dropped more inside the boundary than 
     frameborder="0">
 </iframe>
 
-Finally, I wanted to look at the NDVI values for different years, instead of looking at the difference.
+Finally, I wanted to look at the NDVI values for different years, instead of looking at the difference. We can see below that the upper right part of the fire has had the most vegetation regrowth, but still does not look like it did before the fire. And the lower left portion of the fire originally had less vegetation overall than the upper right area, but the vegetation has barely begun to become healthier/more abundant.
 
 <iframe src="/assets/ndvi/ndvi_values_2012_2013_2023.html"
     sandbox="allow-same-origin allow-scripts"
@@ -107,7 +107,7 @@ Finally, I wanted to look at the NDVI values for different years, instead of loo
     frameborder="0">
 </iframe>
 
-And their respective histograms.
+And their respective histograms which makes sense. In 2013, the values shifted lower as it was the year of the fire, and in present day, the values have shifted higher overall, but still are not similar to the year before the fire, 2012.
 
 <iframe src="/assets/ndvi/ndvi_values_2012_2013_2023_histograms.html"
     sandbox="allow-same-origin allow-scripts"
