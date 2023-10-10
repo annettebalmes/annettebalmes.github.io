@@ -35,9 +35,17 @@ The image below that was taken in 2013 and outlines the fire boundary in white d
 
 
 ## Why NDVI for Vegetation Analysis
-Normalized Difference Vegetation Index (NDVI) quantifies vegetation by measuring the difference between near-infrared (which vegetation strongly reflects) and red light (which vegetation absorbs). Healthy vegetation (chlorophyll) reflects more near-infrared (NIR) and green light compared to other wavelengths. But it absorbs more red and blue light.
+Normalized Difference Vegetation Index (NDVI) quantifies vegetation by measuring the difference between near-infrared (which vegetation strongly reflects) and red light (which vegetation absorbs). Healthy vegetation (chlorophyll) reflects more near-infrared (NIR) and green light compared to other wavelengths. But it absorbs more red and blue light. This is why our eyes see vegetation as the color green. If you could see near-infrared, then it would be strong for vegetation too. 
 
-This is why our eyes see vegetation as the color green. If you could see near-infrared, then it would be strong for vegetation too.
+<p align="center">
+  <img width="700" height="600" src="/assets/ndvi/ndvi.png">
+</p>
+
+Written mathematically, the formula is:
+
+NDVI = (NIR — VIS)/(NIR + VIS)
+
+Calculations of NDVI for a given pixel always result in a number that ranges from minus one (-1) to plus one (+1); however, no green leaves gives a value close to zero. A zero means no vegetation and close to +1 (0.8 - 0.9) indicates the highest possible density of green leaves. 
 
 ## Data Analysis
 
