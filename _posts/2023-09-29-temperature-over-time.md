@@ -25,3 +25,7 @@ I lived in Greeley, CO which is in Weld County and I was able to pull data from 
 
 # Results
 As we are only getting a monthly view with this dataset, we see that for most summer months, there was at least one day over 85 degrees. We also see that the average temperature for each month tells a different story. We now know that on average for each month, it was never even over 80 degrees. I believe my hypothesis to be correct, that my mother chose a temperature that it would hit every so often, but also would not happen as frequently.
+
+## Data Citation
+
+NOAA National Centers for Environmental information, Climate at a Glance: County Time Series, published October 2023, retrieved on October 10, 2023 from https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series 
