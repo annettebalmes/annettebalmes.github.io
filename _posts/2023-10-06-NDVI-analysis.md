@@ -101,7 +101,7 @@ Finally, I wanted to look at the NDVI values for different years, instead of loo
 <iframe src="/assets/ndvi/ndvi_values_2012_2013_2023.html"
     sandbox="allow-same-origin allow-scripts"
     width="810"
-    height="900"
+    height="950"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -112,7 +112,7 @@ And their respective histograms.
 <iframe src="/assets/ndvi/ndvi_values_2012_2013_2023_histograms.html"
     sandbox="allow-same-origin allow-scripts"
     width="810"
-    height="900"
+    height="950"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
