@@ -45,7 +45,7 @@ To begin, I aquired the raster data from [Wildland Fire Interagency Geospatial S
 
 First, I looked at the NDVI difference for the immediate pre-fire and and post-fire years, 2012 to 2014. 
 
-<iframe src="/assets/ndvi/ndvi_pre_post_fire_years.html"
+<iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2012_2014.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="300"
@@ -62,7 +62,7 @@ We can see some areas with very clear differences in the NDVI spatially, in orde
 
 To get a better understanding of the values we are seeing, I also then created a histogram to see the spread of values, for the same parameters as the above plot.
 
-<iframe src="/assets/ndvi/ndvi_pre_post_fire_histogram_2010-2023.html"
+<iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2010_2023_histogram.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="300"
@@ -73,7 +73,7 @@ To get a better understanding of the values we are seeing, I also then created a
 
 Finally, to see how the area has fared over the last decade, I plotted values from before and after the fire, while taking a more in depth look at if the fire dropped more inside the boundary than outside. This plot shows the values as well for 2010-2023, and shows a vertical line where the fire occured. Despite 25,000 pounds of planting wildflowers and grasses, the area has barely recovered.
 
-<iframe src="/assets/ndvi/ndvi_pre_post_fire_to_present.html"
+<iframe src="/assets/ndvi/ndvi_line-plot.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="300"
