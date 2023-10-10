@@ -59,7 +59,7 @@ We can see some areas with very clear differences in the NDVI spatially, in orde
 
 <iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2010_2023.html"
     sandbox="allow-same-origin allow-scripts"
-    width="700"
+    width="710"
     height="500"
     scrolling="no"
     seamless="seamless"
