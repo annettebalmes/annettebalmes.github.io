@@ -65,7 +65,7 @@ First, I looked at the NDVI difference for the immediate pre-fire and post-fire 
 We can see some areas with very clear differences in the NDVI spatially, in order to get a better idea as to where the edges of the fire were, I next plotted the boundary of the fire on top of the NDVI plot. Then I expanded the data to be from 2010 to 2023, so we can get a better picture of the full effects of the fire.
 
 
-<iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2010-2023.html"
+<iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2012-2023.html"
     sandbox="allow-same-origin allow-scripts"
     width="710"
     height="500"
@@ -85,12 +85,34 @@ To get a better understanding of the values we are seeing, I also then created a
     frameborder="0">
 </iframe>
 
-Finally, to see how the area has fared over the last decade, I plotted values from before and after the fire, while taking a more in depth look at if the fire dropped more inside the boundary than outside. This plot shows the values as well for 2010 - 2023 and shows a vertical line where the fire occurred. Despite 25,000 pounds of planting wildflowers and grasses being planted in the area, the area has barely seen any vegetation recovery.
+In order to take into account if the fire dropped more inside the boundary than outside over the last decade, I plotted these values from 2010 - 2023 and show a vertical line where the fire occurred on the plot below as well. Despite 25,000 pounds of planting wildflowers and grasses being planted in the area, the area has barely seen any vegetation recovery inside the fire boundary.
 
 <iframe src="/assets/ndvi/ndvi_line-plot.html"
     sandbox="allow-same-origin allow-scripts"
     width="710"
     height="300"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+Finally, I wanted to look at the NDVI values for different years, instead of looking at the difference.
+
+<iframe src="/assets/ndvi/ndvi_values_2012_2013_2023.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="810"
+    height="800"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+And their respective histograms.
+
+<iframe src="/assets/ndvi/ndvi_values_2012_2013_2023_histograms.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="810"
+    height="800"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
