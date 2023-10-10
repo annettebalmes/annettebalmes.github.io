@@ -48,7 +48,7 @@ First, I looked at the NDVI difference for the immediate pre-fire and and post-f
 <iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2012_2014.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
-    height="300"
+    height="500"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -65,7 +65,7 @@ To get a better understanding of the values we are seeing, I also then created a
 <iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2010_2023_histogram.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
-    height="300"
+    height="500"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
