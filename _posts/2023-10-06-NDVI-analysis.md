@@ -53,7 +53,7 @@ To begin, I acquired the raster data from [Wildland Fire Interagency Geospatial 
 
 First, I looked at the NDVI difference for the immediate pre-fire and post-fire years, 2012 to 2014. 
 
-<iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2012_2014.html"
+<iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2012-2014.html"
     sandbox="allow-same-origin allow-scripts"
     width="710"
     height="500"
@@ -76,7 +76,7 @@ We can see some areas with very clear differences in the NDVI spatially, in orde
 
 To get a better understanding of the values we are seeing, I also then created a histogram to see the spread of values, for the same parameters as the above plot.
 
-<iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2010_2023_histogram.html"
+<iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2012_2023_histogram.html"
     sandbox="allow-same-origin allow-scripts"
     width="710"
     height="300"
@@ -101,7 +101,7 @@ Finally, I wanted to look at the NDVI values for different years, instead of loo
 <iframe src="/assets/ndvi/ndvi_values_2012_2013_2023.html"
     sandbox="allow-same-origin allow-scripts"
     width="810"
-    height="800"
+    height="900"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -112,7 +112,7 @@ And their respective histograms.
 <iframe src="/assets/ndvi/ndvi_values_2012_2013_2023_histograms.html"
     sandbox="allow-same-origin allow-scripts"
     width="810"
-    height="800"
+    height="900"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
