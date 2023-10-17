@@ -70,7 +70,7 @@ The HUC-2 level covers an area that is much larger than Colorado, so I began by 
 <iframe src="/assets/wildfire/hu2_watersheds_colorado.html"
     sandbox="allow-same-origin allow-scripts"
     width="710"
-    height="500"
+    height="700"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -81,7 +81,7 @@ At the HU2-level, the watershed boundaries may not give enough detail as to what
 <iframe src="/assets/wildfire/hu4_watersheds_colorado.html"
     sandbox="allow-same-origin allow-scripts"
     width="710"
-    height="300"
+    height="500"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
