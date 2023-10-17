@@ -31,7 +31,7 @@ I wanted to look at time series of total numbers of fires and max fire sizes, sp
 
 ## Data at a Glance
 
-Hydrologic Units (HU) and Watersheds
+### Hydrologic Units (HU) and Watersheds
 
 The United States is organized into a hierarchy of hydrologic units, which can be categorized into four distinct levels: regions, subregions, accounting units, and cataloging units. These hydrologic units are structured in a nested fashion, with larger geographic areas at the top (regions) and smaller geographic areas at the bottom (cataloging units). Each hydrologic unit is uniquely identified by a hydrologic unit code (HUC) comprising two to eight digits, corresponding to the four levels of the hydrologic unit system.
 
@@ -46,26 +46,18 @@ A great example comes from the (USGS NAS FaST - Flood and Storm Tracker Website)
 
 I will be analyzing at HUC-2 and HUC-4 levels and getting my data from the (Watershed Boundary Dataset (WBD))[] website.
 
-## Why NDVI for Vegetation Analysis
-Normalized Difference Vegetation Index (NDVI) quantifies vegetation by measuring the difference between near-infrared (which vegetation strongly reflects) and red light (which vegetation absorbs). Healthy vegetation (chlorophyll) reflects more near-infrared (NIR) and green light compared to other wavelengths. But it absorbs more red and blue light. This is why our eyes see vegetation as the color green. If you could see near-infrared, then it would be strong for vegetation too. 
+### Spatial wildfire occurrence data for the United States
 
-<p align="center">
-  <img width="700" height="600" src="/assets/ndvi/ndvi.png">
-</p>
+Data on CONUS fire occurrence between 1992 and 2022 was used from the (the United States Forest Service website)[https://www.fs.usda.gov/rds/archive/Catalog/RDS-2013-0009.6]
 
-Written mathematically, the formula is:
-
-NDVI = (NIR — VIS)/(NIR + VIS)
-
-Calculations of NDVI for a given pixel always result in a number that ranges from minus one (-1) to plus one (+1); however, no green leaves gives a value close to zero. A zero means no vegetation and close to +1 (0.8 - 0.9) indicates the highest possible density of green leaves. 
+This data release presents a spatial database documenting U.S. wildfires from 1992 to 2020, supporting the Fire Program Analysis system. The dataset includes 2.3 million geo-referenced wildfire records, covering 180 million burned acres, and conforms to NWCG standards, with redundant records removed. It facilitates linking final fire reports with large fire perimeters and operational situation reports.
 
 ## Data Analysis
 
-To begin, I acquired the raster data from [Wildland Fire Interagency Geospatial Services (WFIGS) Historic Perimeters 2013 API explorer site](https://data-nifc.opendata.arcgis.com/datasets/nifc::historic-perimeters-2018/api) and downloaded it using the [APPEEARS](https://appeears.earthdatacloud.nasa.gov/) API (Application Programming Interface) for the royal gorge location and looked at the NDVI.
+To begin, I looked at the interaction between the watershed boundaries and the State of Colorado at the HUC-2 level. 
 
-First, I looked at the NDVI difference for the immediate pre-fire and post-fire years, 2012 to 2014. 
 
-<iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2012-2014.html"
+<iframe src="/assets/wildfire/hu2_watersheds.html"
     sandbox="allow-same-origin allow-scripts"
     width="710"
     height="500"
@@ -74,10 +66,9 @@ First, I looked at the NDVI difference for the immediate pre-fire and post-fire 
     frameborder="0">
 </iframe>
 
-We can see some areas with very clear differences in the NDVI spatially, in order to get a better idea as to where the edges of the fire were, I next plotted the boundary of the fire on top of the NDVI plot. Then I expanded the data to be from 2010 to 2023, so we can get a better picture of the full effects of the fire.
+The HUC-2 level covers an area that is much larger than Colorado, so I began by clipping the watersheds to only be within the borders of CO.
 
-
-<iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2012-2023.html"
+<iframe src="/assets/wildfire/hu2_watersheds_colorado.html"
     sandbox="allow-same-origin allow-scripts"
     width="710"
     height="500"
@@ -86,9 +77,9 @@ We can see some areas with very clear differences in the NDVI spatially, in orde
     frameborder="0">
 </iframe>
 
-To get a better understanding of the values we are seeing, I also then created a histogram to see the spread of values, for the same parameters as the above plot.
+At the HU2-level, the watershed boundaries may not give enough detail as to what is actually happening in each part of the state, so I also wanted to analyze the HUC-4 level watersheds. As we can see below, there are far more regions that can help us to better classify the fires that occur in each of these regions.
 
-<iframe src="/assets/ndvi/ndvi_pre_post_fire_years_2012_2023_histogram.html"
+<iframe src="/assets/wildfire/hu4_watersheds_colorado.html"
     sandbox="allow-same-origin allow-scripts"
     width="710"
     height="300"
@@ -97,9 +88,9 @@ To get a better understanding of the values we are seeing, I also then created a
     frameborder="0">
 </iframe>
 
-In order to take into account if the fire dropped more inside the boundary than outside over the last decade, I plotted these values from 2010 - 2023 and show a vertical line where the fire occurred on the plot below as well. Despite 25,000 pounds of planting wildflowers and grasses being planted in the area, the area has barely seen any vegetation recovery inside the fire boundary.
+Then, I wanted to look at the total number of fires that occured in each area each year, as well as where the largest fire occured each year. I created some tire series line plots to look at this data, first for the HUC-2:
 
-<iframe src="/assets/ndvi/ndvi_line-plot.html"
+<iframe src="/assets/wildfire/hu2_lineplotbyregion.html"
     sandbox="allow-same-origin allow-scripts"
     width="710"
     height="300"
@@ -108,9 +99,8 @@ In order to take into account if the fire dropped more inside the boundary than 
     frameborder="0">
 </iframe>
 
-Finally, I wanted to look at the NDVI values for different years, instead of looking at the difference. We can see below that the upper right part of the fire has had the most vegetation regrowth, but still does not look like it did before the fire. And the lower left portion of the fire originally had less vegetation overall than the upper right area, but the vegetation has barely begun to become healthier/more abundant.
-
-<iframe src="/assets/ndvi/ndvi_values_2012_2013_2023.html"
+Followed by same using the HUC-4 data:
+<iframe src="/assets/wildfire/hu4_lineplotbyregion.html"
     sandbox="allow-same-origin allow-scripts"
     width="810"
     height="950"
@@ -119,9 +109,9 @@ Finally, I wanted to look at the NDVI values for different years, instead of loo
     frameborder="0">
 </iframe>
 
-And their respective histograms which makes sense. In 2013, the values shifted lower as it was the year of the fire, and in present day, the values have shifted higher overall, but still are not similar to the year before the fire, 2012.
+To better visualize all of the regions data at once, I also created a combined region line plot for HUC-2 and HUC-4. If you would also like to see specific regions combined, or singled out, click on their names to toggle thhe data for those regions on/off.
 
-<iframe src="/assets/ndvi/ndvi_values_2012_2013_2023_histograms.html"
+<iframe src="/assets/wildfire/hu2_lineplotbyregion_combined.html"
     sandbox="allow-same-origin allow-scripts"
     width="810"
     height="950"
@@ -130,14 +120,43 @@ And their respective histograms which makes sense. In 2013, the values shifted l
     frameborder="0">
 </iframe>
 
+<iframe src="/assets/wildfire/hu4_lineplotbyregion_combined.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="810"
+    height="950"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+Finally, I also wanted to look at fire density of each region. The units are in terms are hectacres, as they are primarily used as a measurement of land.
+
+First for HUC-2, and then for HUC-4
+
+<iframe src="/assets/wildfire/hu2_density.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="810"
+    height="950"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+<iframe src="/assets/wildfire/hu4_density.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="810"
+    height="950"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
 
 # Results
-It will take decades for the trees and vegetation to ever recover following the royal gorge fire. A research team from Australian National University found that forests’ ability to recover from a fire can stretching to more than 80 years. This means that we may continue to see devastated landscapes post-fire for many years to come, impacting the ability for wildlife to reemerge and humans to recreate in these areas. 
+Comparing the data, we see large differences between HUC-2 and HUC-4, which we surprised in our hypothesis. It leads us to continue thinking about the issues of aliasing. With the HUC-2 data, the fire density for the entire western-half is higher than anywhere else, but as we move down in region size to HUC-4, we see that one or two regions are carrying the bulk of that weights. Where-as, if we moved down in scale too much, it would not be tell us enough large-scale information about each region.
 
-A University of Colorado Boulder study noted that in the Southern Rocky Mountains the post-fire landscape is becoming unsuitable for future growth of ponderosa pine and Douglas fir. This finding from their research reveals that if fires continue to drastically harm the soil quality and ecosystem health, it may be hard for local trees to regrow in those areas.
-
-Someday I hope to revisit the area, and hopefully in my lifetime it will look just like it did when I was a kid.
+For the second part of our hypothessis, we do indeed find that the graphic from USGS detailing the spatial and temporal increase in wildfires is indeed true.
 
 # Data Citations
+Short, Karen C. 2022. Spatial wildfire occurrence data for the United States, 1992-2020 [FPA_FOD_20221014]. 6th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.6
 
-Didan, K. (2021). MODIS/Aqua Vegetation Indices 16-Day L3 Global 250m SIN Grid V061. NASA EOSDIS Land Processes Distributed Active Archive Center. Accessed 2023-10-06 from https://doi.org/10.5067/MODIS/MYD13Q1.061. Accessed October 6, 2023. 
+Watershed Boundary Dataset (WBD). U.S. Geological Survey / USDA Natural Resources Conservation Service / U.S. Environmental Protection Agency. https://data.nal.usda.gov/dataset/watershed-boundary-dataset-wbd. Accessed 2023-10-11.
