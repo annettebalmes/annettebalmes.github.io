@@ -59,7 +59,7 @@ To begin, I looked at the interaction between the watershed boundaries and the S
 <iframe src="/assets/wildfire/hu2_watersheds.html"
     sandbox="allow-same-origin allow-scripts"
     width="710"
-    height="500"
+    height="700"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -70,7 +70,7 @@ The HUC-2 level covers an area that is much larger than Colorado, so I began by 
 <iframe src="/assets/wildfire/hu2_watersheds_colorado.html"
     sandbox="allow-same-origin allow-scripts"
     width="710"
-    height="700"
+    height="710"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -81,7 +81,7 @@ At the HU2-level, the watershed boundaries may not give enough detail as to what
 <iframe src="/assets/wildfire/hu4_watersheds_colorado.html"
     sandbox="allow-same-origin allow-scripts"
     width="710"
-    height="700"
+    height="710"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -91,8 +91,8 @@ Then, I wanted to look at the total number of fires that occured in each area ea
 
 <iframe src="/assets/wildfire/hu2_lineplotbyregion.html"
     sandbox="allow-same-origin allow-scripts"
-    width="610"
-    height="950"
+    width="510"
+    height="750"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -101,8 +101,8 @@ Then, I wanted to look at the total number of fires that occured in each area ea
 Followed by same using the HUC-4 data:
 <iframe src="/assets/wildfire/hu4_lineplotbyregion.html"
     sandbox="allow-same-origin allow-scripts"
-    width="610"
-    height="950"
+    width="510"
+    height="750"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -113,7 +113,7 @@ To better visualize all of the regions data at once, I also created a combined r
 <iframe src="/assets/wildfire/hu2_lineplotbyregion_combined.html"
     sandbox="allow-same-origin allow-scripts"
     width="810"
-    height="750"
+    height="700"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -122,7 +122,7 @@ To better visualize all of the regions data at once, I also created a combined r
 <iframe src="/assets/wildfire/hu4_lineplotbyregion_combined.html"
     sandbox="allow-same-origin allow-scripts"
     width="810"
-    height="750"
+    height="700"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -134,8 +134,8 @@ First for HUC-2, and then for HUC-4
 
 <iframe src="/assets/wildfire/hu2_density.html"
     sandbox="allow-same-origin allow-scripts"
-    width="710"
-    height="750"
+    width="510"
+    height="710"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -143,8 +143,8 @@ First for HUC-2, and then for HUC-4
 
 <iframe src="/assets/wildfire/hu4_density.html"
     sandbox="allow-same-origin allow-scripts"
-    width="710"
-    height="750"
+    width="510"
+    height="710"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
