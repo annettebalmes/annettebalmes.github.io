@@ -39,7 +39,7 @@ At the initial classification level, HUC-2, the country is partitioned into 21 m
 
 Moving to the second classification level,HUC-4, the 21 regions are further divided into 221 subregions. Each subregion encompasses the land drained by a river system, a segment of a river and its associated tributaries, a closed basin or basins, or a cluster of streams that collectively form a coastal drainage area.
 
-A great example comes from the (USGS NAS FaST - Flood and Storm Tracker Website)[https://nas.er.usgs.gov/hucs.aspx]. It shows each scaled of the different classification levels.
+A great example comes from the [USGS NAS FaST - Flood and Storm Tracker Website]([https://nas.er.usgs.gov/hucs.aspx]). It shows each scaled of the different classification levels.
 <p align="center">
   <img width="700" height="600" src="/assets/wildfire/WBD_Base_HUStructure_small.png">
 </p>
