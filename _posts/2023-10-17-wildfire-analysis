@@ -1,16 +1,18 @@
 ---
-title: NDVI Analysis and Working with Raster Data
+title: Wildfire Analysis by Watershed Regions in Colorado
 categories:
 - General
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 
-Using NDVI raster data to analyze vegetation regrowth after the Royal Gorge Fire that occurred in 2013 just outside of Cañon City, CO.
+Looking at statistics and changes in time of wildfires that occur in HU2 and HU4 watershed regions in Colorado.
 
 ## Data Choice
-A popular attraction in the mountains of CO, west of Pueblo, is the Royal Gorge Canyon Train and Suspension Bridge. My family had a trip planned to go back for the first time in a decade. The week before we went, a fire sparked and the park shut down, for 9 months. Even after that, everyone who went told us that it was sad to see the once lively park covered in burn marks. It has now been another decade since the fire and when choosing a dataset to analyze, I was curious to see how long it took for the landscape to recover. Below I analyze NDVI data to assess vegetation regrowth in the area where the fire occurred. Watch the following video to see how the Royal Gorge park fared after 10 years.
+As I discussed in my last project, wildfires are changing with time. They are becomming more increasing, and has system-altering effects throughout the U.S.
 
-<div class="scripps_iframe_embed" style="position:relative"><div style="display:block;width:100%;height:auto;padding-bottom:56.25%;"></div><iframe id="da-iframe" allowfullscale="" style="position:absolute;top:0;left:0;width:100%;height:100%;" border="0" height="100%" frameborder="0" webkitallowfullscreen="" allowfullscreen="" mozallowfullscreen="" scrolling="no" src="https://assets.scrippsdigital.com/cms/video/player.html?video=https://content.uplynk.com/fa36cd464670483cb1859781a179cf62.m3u8&mp4=https://x-default-stgec.uplynk.com/ausw/slices/fa3/b2da66f716dc47439b09dfbbeb8a98d1/fa36cd464670483cb1859781a179cf62/fa36cd464670483cb1859781a179cf62_e.mp4&autoplay=false&purl=/news/ashes-to-renewal/royal-gorge-rebuild-ten-years-later&ads.iu=/6088/ssp.koaa/news/ashes-to-renewal/royal-gorge-rebuild-ten-years-later&ads.proxy=1&poster=https://x-default-stgec.uplynk.com/ausw/slices/fa3/b2da66f716dc47439b09dfbbeb8a98d1/fa36cd464670483cb1859781a179cf62/poster_a2824f9e042e480c954fb19aefa8bacb.jpg&title=Rebuilding%20the%20Royal%20Gorge%2C%20ten%20years%20after%20the%20flames%20settled&kw=%272013%20FIRES%20%2C10%20YEARS%20%2C14000%20ACRES%20%2C2013%20%2C2013%20FIRE%20%2C488%20HOMES%20%2C500%20HOMES%20%2CACRES%20%2CAMERICAN%20NATURAL%20HISTORY%20%2CAMERICAS%20BRIDGE%20&contplay=*recent&mute=0&tags=Ashes%20to%20Renewal%2CHomepage%20Showcase%2CNews5%20Originals&section=Ashes%20to%20Renewal&cust_params=temp%3D%26weather%3D&host=koaa.com&s=koaa&ex=1" allow="autoplay; fullscreen"></iframe></div>
+
+* [The New York Times on increases in large wildfires in the Western US](https://www.nytimes.com/interactive/2018/11/27/climate/wildfire-global-warming.html)
+* [Adapt to more wildfire in western North American forests as climate changes](https://www.pnas.org/doi/abs/10.1073/pnas.1617464114)
 
 ## Data at a Glance
 
