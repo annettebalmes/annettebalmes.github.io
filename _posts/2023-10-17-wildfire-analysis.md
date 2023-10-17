@@ -46,16 +46,15 @@ A great example comes from the (USGS NAS FaST - Flood and Storm Tracker Website)
 
 I will be analyzing at HUC-2 and HUC-4 levels and getting my data from the [Watershed Boundary Dataset (WBD) website.](https://water.usgs.gov/GIS/huc.html)
 
-### Spatial wildfire occurrence data for the United States
+### Spatial Wildfire Occurrence Data for the United States
 
-Data on CONUS fire occurrence between 1992 and 2022 was used from the (the United States Forest Service website)[https://www.fs.usda.gov/rds/archive/Catalog/RDS-2013-0009.6]
+Data on CONUS fire occurrence between 1992 and 2022 was used from the [the United States Forest Service website](https://www.fs.usda.gov/rds/archive/Catalog/RDS-2013-0009.6)
 
 This data release presents a spatial database documenting U.S. wildfires from 1992 to 2020, supporting the Fire Program Analysis system. The dataset includes 2.3 million geo-referenced wildfire records, covering 180 million burned acres, and conforms to NWCG standards, with redundant records removed. It facilitates linking final fire reports with large fire perimeters and operational situation reports.
 
 ## Data Analysis
 
 To begin, I looked at the interaction between the watershed boundaries and the State of Colorado at the HUC-2 level. 
-
 
 <iframe src="/assets/wildfire/hu2_watersheds.html"
     sandbox="allow-same-origin allow-scripts"
