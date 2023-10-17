@@ -15,7 +15,7 @@ There is another part to the devastation of wildfires as of late. Wildfires are 
 * [The New York Times on increases in large wildfires in the Western US](https://www.nytimes.com/interactive/2018/11/27/climate/wildfire-global-warming.html)
 * [Adapt to more wildfire in western North American forests as climate changes](https://www.pnas.org/doi/abs/10.1073/pnas.1617464114)
 
-As I live in Colorado, I wanted to investigate how this is affecting my state. The graphic below is from the State of Colorado- Division of Fire Prevention & Control, Historical Wildfire Information section of their (website)[https://dfpc.colorado.gov/sections/wildfire-information-center/historical-wildfire-information]. We can see the same facts, fires are becoming more frequent and larger.
+As I live in Colorado, I wanted to investigate how this is affecting my state. The graphic below is from the State of Colorado- Division of Fire Prevention & Control, Historical Wildfire Information section of their [website]([https://dfpc.colorado.gov/sections/wildfire-information-center/historical-wildfire-information]). We can see the same facts, fires are becoming more frequent and larger.
 
 <p align="center">
   <img width="700" height="600" src="/assets/wildfire/colorado_wildfire_facts.png">
