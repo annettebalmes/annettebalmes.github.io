@@ -27,7 +27,7 @@ In terms of wildfire size, here is an example of the top 10 largest fires in Col
   <img width="700" height="600" src="/assets/wildfire/colorado_wildfire_top10.png">
 </p>
 
-I wanted to look at time series of total numbers of fires and max fire sizes, specifically within Colorado. One way to do this is to take water regions that go through CO and copmare it to a database that contains wildfire information by watershed.
+I wanted to look at time series of total numbers of fires and max fire sizes, specifically within Colorado. One way to do this is to take water regions that go through CO and copmare it to a database that contains wildfire information by watershed, specifically to see if it is better to represent the regions within CO with one hydrologic unit classification level over another.
 
 ## Data at a Glance
 
