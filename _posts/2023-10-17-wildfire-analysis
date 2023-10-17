@@ -8,33 +8,43 @@ feature_image: "https://picsum.photos/2560/600?image=872"
 Looking at statistics and changes in time of wildfires that occur in HU2 and HU4 watershed regions in Colorado.
 
 ## Data Choice
-As I discussed in my last project, wildfires are changing with time. They are becomming more increasing, and has system-altering effects throughout the U.S.
+As I discussed in my last project, forests are struggling to recover, especially in parts of Colorado.
 
+There is another part to the devastation of wildfires as of late. Wildfires are changing with time, for the worse. Increases temporarlly and spatially are having system-altering effects throughout the U.S. Here are some articles if you would like to learn more.
 
 * [The New York Times on increases in large wildfires in the Western US](https://www.nytimes.com/interactive/2018/11/27/climate/wildfire-global-warming.html)
 * [Adapt to more wildfire in western North American forests as climate changes](https://www.pnas.org/doi/abs/10.1073/pnas.1617464114)
 
-## Data at a Glance
-
-Royal Gorge Fire Quick Facts
-
- * First reported at 1pm June 11th, 2013.
- * 3,218 acres burned.
- * 32 out of 1,292 wooden planks burned on the Royal Gorge Bridge.
- * 48 out of 52 buildings in the Royal Gorge Bridge and Park were lost.
- * The Royal Gorge Bridge and Park was closed for 9 months. 
- * The Royal Gorge Fire was fully contained on June 16th, 2013.
- * No injuries were reported, and no residential homes were lost.
- * Cost to rebuild park: $30 million
- * About 25,000 pounds of native grass and wildflower seeds were planted.
-
-The image below that was taken in 2013 and outlines the fire boundary in white dots with a red circle where the suspension bridge occurs from [Wikipedia]([(https://en.wikipedia.org/wiki/File:ISS_image_of_Royal_Gorge,_Canon_City,_Colorado,_USA,_wildfire_burn_scars_with_markings,_rotated_-30_degrees_and_cropped,_2013.jpg)]) 
+As I live in Colorado, I wanted to investigate how this is affecting my state. The graphic below is from the State of Colorado- Division of Fire Prevention & Control, Historical Wildfire Information section of their (website)[https://dfpc.colorado.gov/sections/wildfire-information-center/historical-wildfire-information]. We can see the same facts, fires are becoming more frequent and larger.
 
 <p align="center">
-  <img width="700" height="600" src="/assets/ndvi/royal-gorge-location.jpg">
+  <img width="700" height="600" src="/assets/wildfire/colorado_wildfire_facts.png">
 </p>
 
+In terms of wildfire size, here is an example of the top 10 largest fires in Colorado in terms of acreage.
 
+<p align="center">
+  <img width="700" height="600" src="/assets/wildfire/colorado_wildfire_top10.png">
+</p>
+
+I wanted to look at time series of total numbers of fires and max fire sizes, specifically within Colorado. One way to do this is to take water regions that go through CO and copmare it to a database that contains wildfire information by watershed.
+
+## Data at a Glance
+
+Hydrologic Units (HU) and Watersheds
+
+The United States is organized into a hierarchy of hydrologic units, which can be categorized into four distinct levels: regions, subregions, accounting units, and cataloging units. These hydrologic units are structured in a nested fashion, with larger geographic areas at the top (regions) and smaller geographic areas at the bottom (cataloging units). Each hydrologic unit is uniquely identified by a hydrologic unit code (HUC) comprising two to eight digits, corresponding to the four levels of the hydrologic unit system.
+
+At the initial classification level, the country is partitioned into 21 major geographic regions. These regions encompass either the drainage basin of a major river, such as the Missouri region, or the collective drainage areas of multiple rivers, as exemplified by the Texas-Gulf region, which includes numerous rivers that flow into the Gulf of Mexico. Eighteen of these regions are situated within the contiguous United States, with Alaska representing region 19, the Hawaiian Islands constituting region 20, and Puerto Rico and other peripheral Caribbean areas forming region 21. [Please refer to Figure 1 for a visual depiction of these regions.]
+
+Moving to the second classification level, the 21 regions are further divided into 221 subregions. Each subregion encompasses the land drained by a river system, a segment of a river and its associated tributaries, a closed basin or basins, or a cluster of streams that collectively form a coastal drainage area.
+
+A great example comes from the (USGS NAS FaST - Flood and Storm Tracker Website)[https://nas.er.usgs.gov/hucs.aspx]. It shows each scaled of the different classification levels.
+<p align="center">
+  <img width="700" height="600" src="/assets/wildfire/WBD_Base_HUStructure_small.png">
+</p>
+
+I will be analyzing at HUC-2 and HUC-4 levels and getting my data from the (Watershed Boundary Dataset (WBD))[] website.
 
 ## Why NDVI for Vegetation Analysis
 Normalized Difference Vegetation Index (NDVI) quantifies vegetation by measuring the difference between near-infrared (which vegetation strongly reflects) and red light (which vegetation absorbs). Healthy vegetation (chlorophyll) reflects more near-infrared (NIR) and green light compared to other wavelengths. But it absorbs more red and blue light. This is why our eyes see vegetation as the color green. If you could see near-infrared, then it would be strong for vegetation too. 
