@@ -44,7 +44,7 @@ A great example comes from the (USGS NAS FaST - Flood and Storm Tracker Website)
   <img width="700" height="600" src="/assets/wildfire/WBD_Base_HUStructure_small.png">
 </p>
 
-I will be analyzing at HUC-2 and HUC-4 levels and getting my data from the (Watershed Boundary Dataset (WBD))[] website.
+I will be analyzing at HUC-2 and HUC-4 levels and getting my data from the [Watershed Boundary Dataset (WBD) website.](https://water.usgs.gov/GIS/huc.html)
 
 ### Spatial wildfire occurrence data for the United States
 
