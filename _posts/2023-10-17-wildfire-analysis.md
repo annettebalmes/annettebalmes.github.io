@@ -134,7 +134,7 @@ First for HUC-2, and then for HUC-4
 
 <iframe src="/assets/wildfire/hu2_density.html"
     sandbox="allow-same-origin allow-scripts"
-    width="510"
+    width="910"
     height="710"
     scrolling="no"
     seamless="seamless"
@@ -143,7 +143,7 @@ First for HUC-2, and then for HUC-4
 
 <iframe src="/assets/wildfire/hu4_density.html"
     sandbox="allow-same-origin allow-scripts"
-    width="510"
+    width="910"
     height="710"
     scrolling="no"
     seamless="seamless"
