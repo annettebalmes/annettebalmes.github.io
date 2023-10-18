@@ -91,7 +91,7 @@ Then, I wanted to look at the total number of fires that occured in each area ea
 
 <iframe src="/assets/wildfire/hu2_lineplotbyregion.html"
     sandbox="allow-same-origin allow-scripts"
-    width="1010"
+    width="1110"
     height="750"
     scrolling="no"
     seamless="seamless"
@@ -101,7 +101,7 @@ Then, I wanted to look at the total number of fires that occured in each area ea
 Followed by same using the HUC-4 data:
 <iframe src="/assets/wildfire/hu4_lineplotbyregion.html"
     sandbox="allow-same-origin allow-scripts"
-    width="1010"
+    width="1110"
     height="750"
     scrolling="no"
     seamless="seamless"
