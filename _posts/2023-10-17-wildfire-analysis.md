@@ -91,7 +91,7 @@ Then, I wanted to look at the total number of fires that occured in each area ea
 
 <iframe src="/assets/wildfire/hu2_lineplotbyregion.html"
     sandbox="allow-same-origin allow-scripts"
-    width="1310"
+    width="1010"
     height="750"
     scrolling="no"
     seamless="seamless"
@@ -101,7 +101,7 @@ Then, I wanted to look at the total number of fires that occured in each area ea
 Followed by same using the HUC-4 data:
 <iframe src="/assets/wildfire/hu4_lineplotbyregion.html"
     sandbox="allow-same-origin allow-scripts"
-    width="1310"
+    width="1010"
     height="750"
     scrolling="no"
     seamless="seamless"
@@ -134,7 +134,7 @@ First for HUC-2, and then for HUC-4
 
 <iframe src="/assets/wildfire/hu2_density.html"
     sandbox="allow-same-origin allow-scripts"
-    width="1210"
+    width="1150"
     height="710"
     scrolling="no"
     seamless="seamless"
@@ -143,7 +143,7 @@ First for HUC-2, and then for HUC-4
 
 <iframe src="/assets/wildfire/hu4_density.html"
     sandbox="allow-same-origin allow-scripts"
-    width="1210"
+    width="1150"
     height="710"
     scrolling="no"
     seamless="seamless"
