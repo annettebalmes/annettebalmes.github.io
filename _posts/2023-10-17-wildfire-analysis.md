@@ -153,7 +153,7 @@ First for HUC-2, and then for HUC-4
 # Results
 Comparing the data, we see large differences between HUC-2 and HUC-4, which we surprised in our hypothesis. It leads us to continue thinking about the issues of aliasing. With the HUC-2 data, the fire density for the entire western-half is higher than anywhere else, but as we move down in region size to HUC-4, we see that one or two regions are carrying the bulk of that weights. Where-as, if we moved down in scale too much, it would not be tell us enough large-scale information about each region.
 
-For the second part of our hypothessis, we do indeed find that the graphic from USGS detailing the spatial and temporal increase in wildfires is indeed true.
+For the second part of our hypothessis, we do find that the graphic from USGS detailing the spatial and temporal increase in wildfires is indeed true.
 
 # Data Citations
 Short, Karen C. 2022. Spatial wildfire occurrence data for the United States, 1992-2020 [FPA_FOD_20221014]. 6th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.6
