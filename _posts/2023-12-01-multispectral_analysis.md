@@ -44,7 +44,7 @@ NAIP data access: The data used were downloaded from the USGS Earth explorer web
 Below are chlorpleth plots of the statistics for each neighborhood.
 
 Maximum:
-<iframe src="/assets/mulispectral/chloropleth-seattle-2019-present-max.html"
+<iframe src="/assets/multispectral/chloropleth-seattle-2019-present-max.html"
     sandbox="allow-same-origin allow-scripts"
     width="500"
     height="500"
@@ -59,7 +59,7 @@ The 3 neighborhoods with the highest NDVI value for that time period would have 
 * Wedgewood
 
 Minimum:
-<iframe src="/assets/mulispectral/chloropleth-seattle-2019-present-minimum.html"
+<iframe src="/assets/mutlispectral/chloropleth-seattle-2019-present-minimum.html"
     sandbox="allow-same-origin allow-scripts"
     width="500"
     height="500"
@@ -74,7 +74,7 @@ The 3 neighborhoods with the lowest NDVI value for that time period would have b
 * Arbor Heights
 
 Mean:
-<iframe src="/assets/mulispectral/chloropleth-seattle-2019-present-mean.html"
+<iframe src="/assets/multispectral/chloropleth-seattle-2019-present-mean.html"
     sandbox="allow-same-origin allow-scripts"
     width="500"
     height="500"
@@ -91,7 +91,7 @@ As we took any data, not just during the greenest time of the year, the mean wil
 Additional Data-
 
 25th Percentile:
-<iframe src="/assets/mulispectral/chloropleth-seattle-2019-present-q25.html"
+<iframe src="/assets/multispectral/chloropleth-seattle-2019-present-q25.html"
     sandbox="allow-same-origin allow-scripts"
     width="500"
     height="500"
@@ -101,7 +101,7 @@ Additional Data-
 </iframe>
 
 75th Percentile:
-<iframe src="/assets/mulispectral/chloropleth-seattle-2019-present-q75.html"
+<iframe src="/assets/multispectral/chloropleth-seattle-2019-present-q75.html"
     sandbox="allow-same-origin allow-scripts"
     width="500"
     height="500"
@@ -111,7 +111,7 @@ Additional Data-
 </iframe>
 
 Standard Deviation:
-<iframe src="/assets/mulispectral/chloropleth-seattle-2019-present-sd.html"
+<iframe src="/assets/multispectral/chloropleth-seattle-2019-present-sd.html"
     sandbox="allow-same-origin allow-scripts"
     width="500"
     height="500"
