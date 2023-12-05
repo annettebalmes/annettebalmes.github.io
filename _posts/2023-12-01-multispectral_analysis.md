@@ -17,6 +17,7 @@ I moved around for awhile, and I wanted to analyze which neighborhoods were the 
 <iframe src="/assets/multispectral/seattle-neighborhoods.html"
     sandbox="allow-same-origin allow-scripts"
     width="500"
+    height="500"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
