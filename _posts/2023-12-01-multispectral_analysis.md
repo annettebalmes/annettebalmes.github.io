@@ -12,7 +12,7 @@ As I grew up in Colorado, I always expexted nature to look a little brown in hue
 
 Seattle's nickname is Emerald City for a reason. I lived there for a few years and I remember looking out the window of first apartment in the 'Westlake' neighborhood and realizing just how green Seattle was. Even in a major city, there was still vast amounts of greenery, that were true greens.
 
-I moved around for awhile, and I wanted to analyze which neighborhoods were the greenest relative to still being in a large city so if I every move back I can know which neighborhood to live and spend my time in.
+I moved around for awhile, and I wanted to analyze which neighborhoods were the greenest relative to still being in a large city so if I every move back I can know which neighborhood to live and spend my time in. I downloaded the neighborhood data from the Seattle Public Utilities website.
 
 <iframe src="/assets/multispectral/seattle-neighborhoods.html"
     sandbox="allow-same-origin allow-scripts"
@@ -22,7 +22,7 @@ I moved around for awhile, and I wanted to analyze which neighborhoods were the 
     frameborder="0">
 </iframe>
 
-The above interactive plot details each neighborhoods in Seattle, and their sub-neighborhoods. For example, I lived in Westlake, which is apart of the Cascade Neighborhood.
+The above interactive plot details each neighborhoods in Seattle, and their sub-neighborhoods. For example, I lived in Westlake, which is apart of the Cascade Neighborhood. 
 
 ## Data at a Glance
 
@@ -37,8 +37,6 @@ NAIP data access: The data used were downloaded from the USGS Earth explorer web
 <p align="center">
   <img width="600" height="400" src="/assets/multispectral/multispectral-imagery.jpg">
 </p>
-
-Data Citation: National Agriculture Imagery Program - NAIP Hub Site. (n.d.). https://naip-usdaonline.hub.arcgis.com/ U.S.G.S. (n.d.). The National Agriculture Imagery Program (NAIP) Dataset. EarthExplorer. https://earthexplorer.usgs.gov/
 
 ### Spatial Wildfire Occurrence Data for the United States
 
@@ -126,6 +124,6 @@ Describe sd
 
 
 # Data Citations
-Short, Karen C. 2022. Spatial wildfire occurrence data for the United States, 1992-2020 [FPA_FOD_20221014]. 6th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.6
+National Agriculture Imagery Program - NAIP Hub Site. (n.d.). https://naip-usdaonline.hub.arcgis.com/ U.S.G.S. (n.d.). The National Agriculture Imagery Program (NAIP) Dataset. EarthExplorer. https://earthexplorer.usgs.gov/
 
-Watershed Boundary Dataset (WBD). U.S. Geological Survey / USDA Natural Resources Conservation Service / U.S. Environmental Protection Agency. https://data.nal.usda.gov/dataset/watershed-boundary-dataset-wbd. Accessed 2023-10-11.
+Seattle Public Utilities. (2020). Neighborhood Map Atlas Neighborhoods. https://data-seattlecitygis.opendata.arcgis.com/maps/SeattleCityGIS::neighborhood-map-atlas-neighborhoods.
