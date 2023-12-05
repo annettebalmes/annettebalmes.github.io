@@ -8,7 +8,7 @@ feature_image: "https://picsum.photos/2560/600?image=872"
 Visualize and quantify differences in vegetation health by neighborhood in Seattle, WA.
 
 ## Data Choice
-As I grew up in Colorado, I always expexted nature to look a little brown in hue. The outdoors in CO are beautiful, but anyone who has visited can tell you that for the most part it is brown. Of course, there is greenery, but it took me moving to Seattle to understand just how brown Colorado was.
+As I grew up in Colorado, I always expexted nature to look a little brown in hue. The outdoors in CO are beautiful, but anyone who has visited can tell you that for the most part it is brown. Of course, there is greenery, but it took me moving to Seattle in 2019 to understand just how brown Colorado was.
 
 Seattle's nickname is Emerald City for a reason. I lived there for a few years and I remember looking out the window of first apartment in the 'Westlake' neighborhood and realizing just how green Seattle was. Even in a major city, there was still vast amounts of greenery, that were true greens.
 
@@ -30,10 +30,10 @@ The above interactive plot details each neighborhoods in Seattle, and their sub-
 
 The National Agriculture Imagery Program (NAIP) provides multispectral aerial imagery data for agricultural and land use applications. NAIP typically captures data in multiple spectral bands, including Red, Green, Blue, and Near-Infrared. Some NAIP datasets may have additional bands, such as panchromatic or thermal infrared, depending on the year and location according to the NAIP.
 
+Since I moved to Seattle in 2019, I wanted to look at NAIP from 2019-present to see what would have been the best neighborhood to live in in the time I lived there, or if I moved back today.
+
 NAIP data access: The data used were downloaded from the USGS Earth explorer website. There was some technical issues with corrupted data so I will updating this notebook with potentially more correct data in the future.
 
-
-A great example comes from the [USGS NAS FaST - Flood and Storm Tracker Website]([https://nas.er.usgs.gov/hucs.aspx]). It shows each scaled of the different classification levels.
 <p align="center">
   <img width="600" height="400" src="/assets/multispectral/multispectral-imagery.jpg">
 </p>
@@ -48,106 +48,82 @@ This data release presents a spatial database documenting U.S. wildfires from 19
 
 ## Data Analysis
 
-To begin, I looked at the interaction between the watershed boundaries and the State of Colorado at the HUC-2 level. 
+Below are chlorpleth plots of the statistics for each neighborhood.
 
-<iframe src="/assets/wildfire/hu2_watersheds.html"
+Maximum:
+<iframe src="/assets/mulispectral/chloropleth-seattle-2019-present-max.html"
     sandbox="allow-same-origin allow-scripts"
-    width="710"
-    height="700"
+    width="500"
+    height="500"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
 </iframe>
 
-The HUC-2 level covers an area that is much larger than Colorado, so I began by clipping the watersheds to only be within the borders of CO.
+Describe Maximum
 
-<iframe src="/assets/wildfire/hu2_watersheds_colorado.html"
+Minimum:
+<iframe src="/assets/mulispectral/chloropleth-seattle-2019-present-minimum.html"
     sandbox="allow-same-origin allow-scripts"
-    width="710"
-    height="710"
+    width="500"
+    height="500"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
 </iframe>
 
-At the HU2-level, the watershed boundaries may not give enough detail as to what is actually happening in each part of the state, so I also wanted to analyze the HUC-4 level watersheds. As we can see below, there are far more regions that can help us to better classify the fires that occur in each of these regions.
+Describe Min
 
-<iframe src="/assets/wildfire/hu4_watersheds_colorado.html"
+Mean:
+<iframe src="/assets/mulispectral/chloropleth-seattle-2019-present-mean.html"
     sandbox="allow-same-origin allow-scripts"
-    width="710"
-    height="710"
+    width="500"
+    height="500"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
 </iframe>
 
-Then, I wanted to look at the total number of fires that occured in each area each year, as well as where the largest fire occured each year. I created some tire series line plots to look at this data, first for the HUC-2:
+Describe Mean
 
-<iframe src="/assets/wildfire/hu2_lineplotbyregion.html"
+25th Percentile:
+<iframe src="/assets/mulispectral/chloropleth-seattle-2019-present-q25.html"
     sandbox="allow-same-origin allow-scripts"
-    width="1010"
-    height="750"
+    width="500"
+    height="500"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
 </iframe>
 
-Followed by same using the HUC-4 data:
-<iframe src="/assets/wildfire/hu4_lineplotbyregion.html"
+Describe q25
+
+75th Percentile:
+<iframe src="/assets/mulispectral/chloropleth-seattle-2019-present-q75.html"
     sandbox="allow-same-origin allow-scripts"
-    width="1010"
-    height="750"
+    width="500"
+    height="500"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
 </iframe>
 
-To better visualize all of the regions data at once, I also created a combined region line plot for HUC-2 and HUC-4. If you would also like to see specific regions combined, or singled out, click on their names to toggle thhe data for those regions on/off.
+Describe q75
 
-<iframe src="/assets/wildfire/hu2_lineplotbyregion_combined.html"
+Standard Deviation:
+<iframe src="/assets/mulispectral/chloropleth-seattle-2019-present-sd.html"
     sandbox="allow-same-origin allow-scripts"
-    width="810"
-    height="700"
+    width="500"
+    height="500"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
 </iframe>
 
-<iframe src="/assets/wildfire/hu4_lineplotbyregion_combined.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="810"
-    height="700"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
-
-Finally, I also wanted to look at fire density of each region. The units are in terms are hectacres, as they are primarily used as a measurement of land.
-
-First for HUC-2, and then for HUC-4
-
-<iframe src="/assets/wildfire/hu2_density.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="1050"
-    height="710"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
-
-<iframe src="/assets/wildfire/hu4_density.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="1050"
-    height="710"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
+Describe sd
 
 # Results
-Comparing the data, we see large differences between HUC-2 and HUC-4, which we surprised in our hypothesis. It leads us to continue thinking about the issues of aliasing. With the HUC-2 data, the fire density for the entire western-half is higher than anywhere else, but as we move down in region size to HUC-4, we see that one or two regions are carrying the bulk of that weights. Where-as, if we moved down in scale too much, it would not be tell us enough large-scale information about each region.
 
-For the second part of our hypothessis, we do find that the graphic from USGS detailing the spatial and temporal increase in wildfires is indeed true.
 
 # Data Citations
 Short, Karen C. 2022. Spatial wildfire occurrence data for the United States, 1992-2020 [FPA_FOD_20221014]. 6th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.6
