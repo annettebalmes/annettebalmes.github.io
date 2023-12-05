@@ -28,7 +28,7 @@ The above interactive plot details each neighborhoods in Seattle, and their sub-
 
 ### NAIP Multispectral Data
 
-The National Agriculture Imagery Program (NAIP) provides multispectral aerial imagery data for agricultural and land use applications. NAIP typically captures data in multiple spectral bands, including Red, Green, Blue, and Near-Infrared. Some NAIP datasets may have additional bands, such as panchromatic or thermal infrared, depending on the year and location according to the NAIP.
+The National Agriculture Imagery Program (NAIP) provides multispectral aerial imagery data for agricultural and land use applications. NAIP typically captures data in multiple spectral bands, including Red, Green, Blue, and Near-Infrared. Some NAIP datasets may have additional bands, such as panchromatic or thermal infrared, depending on the year and location according to the NAIP. For more information on calculating NDVI, look to my NDVI post.
 
 Since I moved to Seattle in 2019, I wanted to look at NAIP from 2019-present to see what would have been the best neighborhood to live in in the time I lived there, or if I moved back today.
 
@@ -58,7 +58,10 @@ Maximum:
     frameborder="0">
 </iframe>
 
-Describe Maximum
+The 3 neighborhoods with the highest NDVI value for that time period would have been the greenest neighborhoods to live in:
+* Alki
+* Pinehurst
+* Wedgewood
 
 Minimum:
 <iframe src="/assets/mulispectral/chloropleth-seattle-2019-present-minimum.html"
@@ -70,7 +73,10 @@ Minimum:
     frameborder="0">
 </iframe>
 
-Describe Min
+The 3 neighborhoods with the lowest NDVI value for that time period would have been the least green neighborhoods to live in:
+* Industrial District
+* North Beach/Blue Ridge
+* Arbor Heights
 
 Mean:
 <iframe src="/assets/mulispectral/chloropleth-seattle-2019-present-mean.html"
@@ -82,7 +88,12 @@ Mean:
     frameborder="0">
 </iframe>
 
-Describe Mean
+As we took any data, not just during the greenest time of the year, the mean will likely give us the best approximate as to the overall 3 greenest neighborhoods:
+* Seward Park
+* North Delridge
+* Sand Point
+
+Additional Data-
 
 25th Percentile:
 <iframe src="/assets/mulispectral/chloropleth-seattle-2019-present-q25.html"
@@ -94,8 +105,6 @@ Describe Mean
     frameborder="0">
 </iframe>
 
-Describe q25
-
 75th Percentile:
 <iframe src="/assets/mulispectral/chloropleth-seattle-2019-present-q75.html"
     sandbox="allow-same-origin allow-scripts"
@@ -105,8 +114,6 @@ Describe q25
     seamless="seamless"
     frameborder="0">
 </iframe>
-
-Describe q75
 
 Standard Deviation:
 <iframe src="/assets/mulispectral/chloropleth-seattle-2019-present-sd.html"
@@ -118,10 +125,11 @@ Standard Deviation:
     frameborder="0">
 </iframe>
 
-Describe sd
-
 # Results
 
+Overall it looks like if I want to maximize my potential greenery, I should live in Alki Beach, but if I want to live where it is more likely to be green o naverage, I should live in Seward Park.
+
+It will be interesting to see how the data changes when I further investigate if there is data that is notbeing pulled correctly from NAIP's API service.
 
 # Data Citations
 National Agriculture Imagery Program - NAIP Hub Site. (n.d.). https://naip-usdaonline.hub.arcgis.com/ U.S.G.S. (n.d.). The National Agriculture Imagery Program (NAIP) Dataset. EarthExplorer. https://earthexplorer.usgs.gov/
