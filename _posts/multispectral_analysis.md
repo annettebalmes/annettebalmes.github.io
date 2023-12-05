@@ -8,40 +8,37 @@ feature_image: "https://picsum.photos/2560/600?image=872"
 Visualize and quantify differences in vegetation health by neighborhood in Seattle, WA.
 
 ## Data Choice
-As I grew up in Colorado, I always expexted nature to look brown in hue. The outdoors in CO are beautiful, but anyone who has visited can tell you that for the most part it is brown. Of course, there is green, but it took  me moving to Seattle to understand just how brown Colorado was.
+As I grew up in Colorado, I always expexted nature to look a little brown in hue. The outdoors in CO are beautiful, but anyone who has visited can tell you that for the most part it is brown. Of course, there is greenery, but it took me moving to Seattle to understand just how brown Colorado was.
 
 Seattle's nickname is Emerald City for a reason. I lived there for a few years and I remember looking out the window of first apartment in the 'Westlake' neighborhood and realizing just how green Seattle was. Even in a major city, there was still vast amounts of greenery, that were true greens.
 
 I moved around for awhile, and I wanted to analyze which neighborhoods were the greenest relative to still being in a large city so if I every move back I can know which neighborhood to live and spend my time in.
 
-<p align="center">
-  <img width="700" height="600" src="/assets/wildfire/colorado_wildfire_facts.png">
-</p>
+<iframe src="/assets/multispectral/seattle-neighborhoods.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="500"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
 
-In terms of wildfire size, here is an example of the top 10 largest fires in Colorado in terms of acreage.
-
-<p align="center">
-  <img width="700" height="600" src="/assets/wildfire/colorado_wildfire_top10.png">
-</p>
-
-I wanted to look at time series of total numbers of fires and max fire sizes, specifically within Colorado. One way to do this is to take water regions that go through CO and copmare it to a database that contains wildfire information by watershed, specifically to see if it is better to represent the regions within CO with one hydrologic unit classification level over another.
+The above interactive plot details each neighborhoods in Seattle, and their sub-neighborhoods. For example, I lived in Westlake, which is apart of the Cascade Neighborhood.
 
 ## Data at a Glance
 
-### Hydrologic Units (HU) and Watersheds
+### NAIP Multispectral Data
 
-The United States is organized into a hierarchy of hydrologic units, which can be categorized into four distinct levels: regions, subregions, accounting units, and cataloging units. These hydrologic units are structured in a nested fashion, with larger geographic areas at the top (regions) and smaller geographic areas at the bottom (cataloging units). Each hydrologic unit is uniquely identified by a hydrologic unit code (HUC) comprising two to eight digits, corresponding to the four levels of the hydrologic unit system.
+The National Agriculture Imagery Program (NAIP) provides multispectral aerial imagery data for agricultural and land use applications. NAIP typically captures data in multiple spectral bands, including Red, Green, Blue, and Near-Infrared. Some NAIP datasets may have additional bands, such as panchromatic or thermal infrared, depending on the year and location according to the NAIP.
 
-At the initial classification level, HUC-2, the country is partitioned into 21 major geographic regions. These regions encompass either the drainage basin of a major river, such as the Missouri region, or the collective drainage areas of multiple rivers, as exemplified by the Texas-Gulf region, which includes numerous rivers that flow into the Gulf of Mexico. Eighteen of these regions are situated within the contiguous United States, with Alaska representing region 19, the Hawaiian Islands constituting region 20, and Puerto Rico and other peripheral Caribbean areas forming region 21.
+NAIP data access: The data used were downloaded from the USGS Earth explorer website. There was some technical issues with corrupted data so I will updating this notebook with potentially more correct data in the future.
 
-Moving to the second classification level,HUC-4, the 21 regions are further divided into 221 subregions. Each subregion encompasses the land drained by a river system, a segment of a river and its associated tributaries, a closed basin or basins, or a cluster of streams that collectively form a coastal drainage area.
 
 A great example comes from the [USGS NAS FaST - Flood and Storm Tracker Website]([https://nas.er.usgs.gov/hucs.aspx]). It shows each scaled of the different classification levels.
 <p align="center">
-  <img width="700" height="600" src="/assets/wildfire/WBD_Base_HUStructure_small.png">
+  <img width="600" height="400" src="/assets/multispectral/multispectral-imagery.jpg">
 </p>
 
-I will be analyzing at HUC-2 and HUC-4 levels and getting my data from the [Watershed Boundary Dataset (WBD) website.](https://water.usgs.gov/GIS/huc.html)
+Data Citation: National Agriculture Imagery Program - NAIP Hub Site. (n.d.). https://naip-usdaonline.hub.arcgis.com/ U.S.G.S. (n.d.). The National Agriculture Imagery Program (NAIP) Dataset. EarthExplorer. https://earthexplorer.usgs.gov/
 
 ### Spatial Wildfire Occurrence Data for the United States
 
