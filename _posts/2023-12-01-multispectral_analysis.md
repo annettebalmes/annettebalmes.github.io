@@ -122,7 +122,7 @@ Standard Deviation:
 
 # Results
 
-Overall it looks like if I want to maximize my potential greenery, I should live in Alki Beach, but if I want to live where it is more likely to be green o naverage, I should live in Seward Park.
+Overall it looks like if I want to maximize my potential greenery, I should live in Alki Beach, but if I want to live where it is more likely to be green on average, I should live in Seward Park.
 
 It will be interesting to see how the data changes when I further investigate if there is data that is notbeing pulled correctly from NAIP's API service.
 
