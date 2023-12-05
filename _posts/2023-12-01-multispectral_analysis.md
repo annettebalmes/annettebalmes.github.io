@@ -39,12 +39,6 @@ NAIP data access: The data used were downloaded from the USGS Earth explorer web
   <img width="600" height="400" src="/assets/multispectral/multispectral-imagery.jpg">
 </p>
 
-### Spatial Wildfire Occurrence Data for the United States
-
-Data on CONUS fire occurrence between 1992 and 2020 was used from the [the United States Forest Service website](https://www.fs.usda.gov/rds/archive/Catalog/RDS-2013-0009.6)
-
-This data release presents a spatial database documenting U.S. wildfires from 1992 to 2020, supporting the Fire Program Analysis system. The dataset includes 2.3 million geo-referenced wildfire records, covering 180 million burned acres, and conforms to NWCG standards, with redundant records removed. It facilitates linking final fire reports with large fire perimeters and operational situation reports.
-
 ## Data Analysis
 
 Below are chlorpleth plots of the statistics for each neighborhood.
