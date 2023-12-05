@@ -5,7 +5,7 @@ categories:
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 
-Visualize and quantify differences in vegetation health by neighborhood in Seattle, WA.
+Visualize and quantify multispectral aerial imagery data by neighborhood in Seattle, WA.
 
 ## Data Choice
 As I grew up in Colorado, I always expexted nature to look a little brown in hue. The outdoors in CO are beautiful, but anyone who has visited can tell you that for the most part it is brown. Of course, there is greenery, but it took me moving to Seattle in 2019 to understand just how brown Colorado was.
