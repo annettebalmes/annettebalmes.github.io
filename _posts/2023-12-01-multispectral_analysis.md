@@ -46,8 +46,8 @@ Below are chlorpleth plots of the statistics for each neighborhood.
 Maximum:
 <iframe src="/assets/multispectral/chloropleth-seattle-2019-present-max.html"
     sandbox="allow-same-origin allow-scripts"
-    width="500"
-    height="500"
+    width="700"
+    height="700"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -61,8 +61,8 @@ The 3 neighborhoods with the highest NDVI value for that time period would have 
 Minimum:
 <iframe src="/assets/mutlispectral/chloropleth-seattle-2019-present-minimum.html"
     sandbox="allow-same-origin allow-scripts"
-    width="500"
-    height="500"
+    width="700"
+    height="700"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -76,8 +76,8 @@ The 3 neighborhoods with the lowest NDVI value for that time period would have b
 Mean:
 <iframe src="/assets/multispectral/chloropleth-seattle-2019-present-mean.html"
     sandbox="allow-same-origin allow-scripts"
-    width="500"
-    height="500"
+    width="700"
+    height="700"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -93,8 +93,8 @@ Additional Data-
 25th Percentile:
 <iframe src="/assets/multispectral/chloropleth-seattle-2019-present-q25.html"
     sandbox="allow-same-origin allow-scripts"
-    width="500"
-    height="500"
+    width="700"
+    height="700"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -103,8 +103,8 @@ Additional Data-
 75th Percentile:
 <iframe src="/assets/multispectral/chloropleth-seattle-2019-present-q75.html"
     sandbox="allow-same-origin allow-scripts"
-    width="500"
-    height="500"
+    width="700"
+    height="700"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -113,8 +113,8 @@ Additional Data-
 Standard Deviation:
 <iframe src="/assets/multispectral/chloropleth-seattle-2019-present-sd.html"
     sandbox="allow-same-origin allow-scripts"
-    width="500"
-    height="500"
+    width="700"
+    height="700"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
