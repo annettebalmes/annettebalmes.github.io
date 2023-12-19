@@ -158,7 +158,10 @@ Optimal Habitat Suiteability Model:
     frameborder="0">
 </iframe>
 
-# Conclusion
+# Data Analysis and Conclusion
+
+For each grassland region, the final optimal plots show values from 0 to 1 for how least to most suitable an area is for Sorghastrum nutans. Note that each plot's output does not officially range from 0 to 1 as there is no perfect area for growing Indiangrass, but overall, we can see the major areas that are darker that would be the most suitable.
+
 While these regions have Sorghastrum nutans as the pre-dominant or sub-dominant species, there is still large percentages of the final optimal habitat suitability that go uncovered. Not all prairie land allows for any kind of grass to grow, but ultimately, plant diversity in a region is the best outcome for a fruitful environment. But with climate change, the next step to look at is tracking changes through time, and creating a model to predict the future habitat suitability of Sorghastrum nutans.
 
 ## Data Citations
