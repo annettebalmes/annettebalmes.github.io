@@ -95,6 +95,7 @@ Create a habitat suitability model- For each grassland:
 
 ### Model: Lyndon B. Johnson National Grassland
 
+Site Map:
 <iframe src="/assets/grasslands/tx-grasslands.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
@@ -104,6 +105,8 @@ Create a habitat suitability model- For each grassland:
     frameborder="0">
 </iframe>
 
+
+Original Data: 
 <iframe src="/assets/grasslands/tx_combined_data_plots.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
@@ -113,6 +116,7 @@ Create a habitat suitability model- For each grassland:
     frameborder="0">
 </iframe>
 
+Optimal Habitat Suiteability Model:
 <iframe src="/assets/grasslands/tx_combined_optimal_plots.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
@@ -124,6 +128,7 @@ Create a habitat suitability model- For each grassland:
 
 ### Model: Sheyenne National Grassland
 
+Site Map:
 <iframe src="/assets/grasslands/nd-grasslands.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
@@ -133,6 +138,7 @@ Create a habitat suitability model- For each grassland:
     frameborder="0">
 </iframe>
 
+Original Data: 
 <iframe src="/assets/grasslands/nd_combined_data_plots.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
@@ -142,6 +148,7 @@ Create a habitat suitability model- For each grassland:
     frameborder="0">
 </iframe>
 
+Optimal Habitat Suiteability Model:
 <iframe src="/assets/grasslands/nd_combined_optimal_plots.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
