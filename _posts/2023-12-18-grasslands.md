@@ -69,7 +69,7 @@ The Forest Service currently administers 20 National Grasslands consisting of 3,
 <iframe src="/assets/grasslands/all-grasslands.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
-    height="600"
+    height="650"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -98,7 +98,7 @@ Create a habitat suitability model- For each grassland:
 <iframe src="/assets/grasslands/tx-grasslands.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
-    height="600"
+    height="650"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -107,7 +107,7 @@ Create a habitat suitability model- For each grassland:
 <iframe src="/assets/grasslands/tx_combined_data_plots.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
-    height="1400"
+    height="1300"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -116,7 +116,7 @@ Create a habitat suitability model- For each grassland:
 <iframe src="/assets/grasslands/tx_combined_optimal_plots.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
-    height="1400"
+    height="1300"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -127,7 +127,7 @@ Create a habitat suitability model- For each grassland:
 <iframe src="/assets/grasslands/nd-grasslands.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
-    height="600"
+    height="650"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -136,7 +136,7 @@ Create a habitat suitability model- For each grassland:
 <iframe src="/assets/grasslands/nd_combined_data_plots.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
-    height="1400"
+    height="1300"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -145,7 +145,7 @@ Create a habitat suitability model- For each grassland:
 <iframe src="/assets/grasslands/nd_combined_optimal_plots.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
-    height="1400"
+    height="1300"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
