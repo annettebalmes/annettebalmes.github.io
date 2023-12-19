@@ -95,7 +95,7 @@ Create a habitat suitability model- For each grassland:
 
 
 
-<iframe src="/final_code/nd-grasslands.html"
+<iframe src="/assets/grasslands/nd-grasslands.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="700"
@@ -107,7 +107,7 @@ Create a habitat suitability model- For each grassland:
 ### Model: Lyndon B. Johnson National Grassland
 
 
-<iframe src="/final_code/tx-grasslands.html"
+<iframe src="/assets/grasslands/tx-grasslands.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="700"
@@ -116,7 +116,7 @@ Create a habitat suitability model- For each grassland:
     frameborder="0">
 </iframe>
 
-<iframe src="/final_code/tx_combined_data_plots.html"
+<iframe src="/assets/grasslands/tx_combined_data_plots.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="700"
@@ -125,7 +125,7 @@ Create a habitat suitability model- For each grassland:
     frameborder="0">
 </iframe>
 
-<iframe src="/final_code/tx_combined_optimal_plots.html"
+<iframe src="/assets/grasslands/tx_combined_optimal_plots.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="700"
@@ -138,7 +138,7 @@ Create a habitat suitability model- For each grassland:
 ### Model: Sheyenne National Grassland
 
 
-<iframe src="/final_code/nd-grasslands.html"
+<iframe src="/assets/grasslands/nd-grasslands.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="700"
@@ -147,7 +147,7 @@ Create a habitat suitability model- For each grassland:
     frameborder="0">
 </iframe>
 
-<iframe src="/final_code/nd_combined_data_plots.html"
+<iframe src="/assets/grasslands/nd_combined_data_plots.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="700"
@@ -156,7 +156,7 @@ Create a habitat suitability model- For each grassland:
     frameborder="0">
 </iframe>
 
-<iframe src="/final_code/nd_combined_optimal_plots.html"
+<iframe src="/assets/grasslands/nd_combined_optimal_plots.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
     height="700"
