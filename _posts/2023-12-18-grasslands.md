@@ -66,10 +66,10 @@ The data variables include temperature, precipitation, humidity, downward shortw
 ### USFS National Grassland Units
 The Forest Service currently administers 20 National Grasslands consisting of 3,842,278 acres of federal land and the 20,000 acre Midewin National Tallgrass Prairie. National Grasslands are located in 13 states. The majority of the acreage (3,161,771 acres, 82%) of the total National Grassland area is in the Great Plains states of Colorado, North Dakota, South Dakota, Kansas, Oklahoma, Texas and Wyoming. Seventeen of the National Grasslands are located on the Great Plains (National Grasslands, n.d.). GIS layers of area boundaries are available for download [here](https://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.NationalGrassland.zip).
 
-<iframe src="/final_code/all-grasslands.html"
+<iframe src="/assets/grasslands/all-grasslands.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
-    height="700"
+    height="600"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -93,24 +93,12 @@ Create a habitat suitability model- For each grassland:
    * For each digital number in each raster, assign a value from 0 to 1 for how close that grid square is to the optimum range (1=optimal, 0=incompatible).
    * Combine your layers by multiplying them together. This will give you a single suitability number for each square.
 
-
-
-<iframe src="/assets/grasslands/nd-grasslands.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="700"
-    height="700"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0">
-</iframe>
-
 ### Model: Lyndon B. Johnson National Grassland
-
 
 <iframe src="/assets/grasslands/tx-grasslands.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
-    height="700"
+    height="600"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -119,7 +107,7 @@ Create a habitat suitability model- For each grassland:
 <iframe src="/assets/grasslands/tx_combined_data_plots.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
-    height="700"
+    height="1400"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -128,20 +116,18 @@ Create a habitat suitability model- For each grassland:
 <iframe src="/assets/grasslands/tx_combined_optimal_plots.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
-    height="700"
+    height="1400"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
 </iframe>
 
-
 ### Model: Sheyenne National Grassland
-
 
 <iframe src="/assets/grasslands/nd-grasslands.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
-    height="700"
+    height="600"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -150,7 +136,7 @@ Create a habitat suitability model- For each grassland:
 <iframe src="/assets/grasslands/nd_combined_data_plots.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
-    height="700"
+    height="1400"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -159,7 +145,7 @@ Create a habitat suitability model- For each grassland:
 <iframe src="/assets/grasslands/nd_combined_optimal_plots.html"
     sandbox="allow-same-origin allow-scripts"
     width="700"
-    height="700"
+    height="1400"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
